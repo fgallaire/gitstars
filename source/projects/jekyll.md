@@ -2,7 +2,7 @@
 title: Jekyll
 repo: jekyll/jekyll
 homepage: http://jekyllrb.com
-categorie: Static site generator
+categorie: Static
 language: Ruby
 license: MIT
 templates: Liquid

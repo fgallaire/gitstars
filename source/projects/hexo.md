@@ -2,7 +2,7 @@
 title: Hexo
 repo: hexojs/hexo
 homepage: http://hexo.io/
-categorie: Static site generator
+categorie: Static
 language: JavaScript
 license: MIT
 templates: EJS, Pug

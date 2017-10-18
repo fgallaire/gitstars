@@ -2,7 +2,7 @@
 title: Pelican
 repo: getpelican/pelican
 homepage: http://blog.getpelican.com/
-categorie: Static site generator
+categorie: Static
 language: Python
 license: AGPL
 templates: Jinja2

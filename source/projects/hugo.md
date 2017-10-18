@@ -2,7 +2,7 @@
 title: Hugo
 repo: gohugoio/hugo
 homepage: http://gohugo.io/
-categorie: Static site generator
+categorie: Static
 language: Go
 license: APL 2.0
 templates: Go Templates
