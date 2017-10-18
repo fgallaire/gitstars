@@ -30,6 +30,7 @@ $(function() {
       stars: "[data-stars] parseInt",
       forks: "[data-forks] parseInt",
       issues: "[data-issues] parseInt",
+      categorie: "[data-categorie]",
       language: "[data-language]",
       title: "[data-title]"
     }
