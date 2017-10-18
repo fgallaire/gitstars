@@ -10,6 +10,7 @@ title: Top Open-Source Projects
           data-forks="<%= project.forks %>"
           data-issues="<%= project.issues %>"
           data-title="<%= project.title %>"
+          data-categorie="<%= project.categorie.downcase.gsub(/\s/, '-') %>">
           data-language="<%= project.language.downcase.gsub(/\s/, '-') %>">
         <div class="card">
           <h4 class="title"><a href="<%= project.url %>"><%= project.title %></a></h4>
@@ -42,6 +43,9 @@ title: Top Open-Source Projects
           </ul>
           <div class="description"><%= project.description %></div>
           <dl>
+            <dt>Categorie:</dt>
+            <dd><%= project.categorie %></dd>
+
             <dt>Language:</dt>
             <dd><%= project.language %></dd>
 
