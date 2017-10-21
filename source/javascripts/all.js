@@ -43,6 +43,11 @@ $(function() {
     $(".projects").isotope({filter: $(this).val().replace(/^\.lang-\./, '.lang-')});
   });
 
+  $("select[name='filter']").change(function(e) {
+    console.log("Filter by: %o", $(this).val());
+    $(".projects").isotope({filter: $(this).val().replace(/^\.lang-\./, '.lang-')});
+  });
+
   $("select[name='sort']").change(function(e) {
     var val = $(this).val();
     $(".projects").isotope({sortBy: val, sortAscending: sortAscending[val] || false});
