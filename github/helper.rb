@@ -6,6 +6,10 @@ module Github
       github.projects
     end
 
+    def categories
+      github.categories
+    end
+
     def languages
       github.languages
     end
