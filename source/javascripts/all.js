@@ -38,7 +38,7 @@ $(function() {
 
   $('.landing .card').matchHeight();
 
-  $("select[name='filter']").change(function(e) {
+  $("select[name='filter1']").change(function(e) {
     console.log("Filter by: %o", $(this).val());
     $(".projects").isotope({filter: $(this).val().replace(/^\.lang-\./, '.lang-')});
   });
