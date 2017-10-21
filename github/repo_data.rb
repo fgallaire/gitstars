@@ -7,6 +7,7 @@ module Github
       @app = app
       @extension = extension
       @projects = []
+      @categories = {}
       @languages = {}
     end
 
@@ -31,6 +32,8 @@ module Github
           resource.destination_path = resource.path.sub(/^projects\//, '')
 
           @projects << resource
+          @categories[resource.categorie] ||= 0
+          @categories[resource.categorie] += 1
           @languages[resource.language] ||= 0
           @languages[resource.language] += 1
         end
