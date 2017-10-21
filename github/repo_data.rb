@@ -17,6 +17,10 @@ module Github
       }
     end
 
+    def categoriees
+      @categories.keys.sort.uniq { |categorie| categorie.downcase }
+    end
+
     def languages
       @languages.keys.sort.uniq { |language| language.downcase }
     end
